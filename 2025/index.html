@@ -1,0 +1,763 @@
+
+<html>
+<head>
+<title>:: OM-2025 ::</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Pavel Shvaiko">
+   <meta name="Description" content="ontology matching workshop: papers, matching systems, evaluation">
+   <meta name="Keywords" content="ontology matching, matching, alignment, mapping, mappings, mapping element, schema matching, ontologymatching, ontology mapping, mapping language, ontology, ontology alignment, semantic matching, syntactic matching, semantics, model management, integration, semantic integration, data integration, information integration, context, heterogeneity, semantic heterogeneity, semantic web, information source, OWL, C-OWL, LAV, GAV, GLAV, database, RDB, XML schema, classification, catalog, web directory, p2p, agent communication, query mediation, web-services integration, catalog matching, XML message mapping, E-commerce, datawarehouses, schema integration, ontology integration, semantic query processing, evaluation, benchmarking, matching systems, tests, test cases, string matching, instance-based matching, schema-based matching, machine learning, graph matching, element level matching, structure level matching, terminological matching">
+</head>
+
+<body bgcolor="#ffffff" bottommargin=0 leftmargin=0 marginheight="0" marginwidth="0" rightmargin=0 topmargin=0>
+
+<a name="top"></a>
+<table align="center" border="0" width="90%">
+  <tr> 
+    <td align="center"><STRONG><font face="Verdana"> <br>
+	  <h1 style=" text-shadow: 3px 4px 4px #777; color: rgb(103, 105, 98)">OM - 2025</h1>	  
+	  <h2><font color="#676962">The 20th International Workshop on Ontology Matching</h2>
+	  <h3>collocated with the 24th International Semantic Web Conference 
+	  <a href="http://iswc2025.semanticweb.org/" target="_blank">
+	  <font color="#676962">ISWC-2025</FONT></a> <br>
+November 2nd or 3rd, 2025, Nara, Japan<br> 
+
+<br>
+
+<!--
+Download OM-2025 proceedings:
+<a href="http://ceur-ws.org/Vol-3897" target="_blank"><font color="#676962">CEUR-WS Vol-3897</a>
+-->
+  <br>
+<br>
+
+
+
+<!--
+Submission deadline is on June 28th, 2019
+
+Download OM-2019 proceedings:
+<a href="http://ceur-ws.org/Vol-2388" target="_blank"><font color="#676962">CEUR-WS Vol-2388</a>
+<br>
+<br>
+
+
+<a href="http://oaei.ontologymatching.org/2019/" target="_blank"><font color="#676962">OAEI-2019</a>
+evaluation phase has started: 13 tracks (4 new)
+<br><br>
+
+EARLY registration deadline is on June 29th, 2019: <a href="http://iswc2019.semanticweb.org/registration/" target="_blank"><font color="#000000">registration page</a>
+
+Submission deadline is approaching on June 4th, 2019
+<br><br>
+
+
+<a href="#subm"><font color="#000000">submission</a> deadline is approaching on July 28th, 2019
+</FONT>
+<br><br>
+
+Download OM-2011 proceedings [<a href="http://www.dit.unitn.it/~p2p/OM-2011//om2011_proceedings.pdf" target="_blank"><font color="#676962">PDF</a>]:
+<a href="http://ceur-ws.org/Vol-814" target="_blank"><font color="#676962">CEUR-WS Vol-814</a>
+
+OM-2011 social dinner at 
+<a href="http://www.boennsch.de/" target="_blank"><font color="#000000">Boennsch</a></FONT>.
+Register here on 
+<a href="http://www.doodle.com/ahm9pc7pv6bfem2r" target="_blank"><font color="#000000">Doodle</a></FONT>, 
+by October 10th, 2014.
+
+EARLY registration deadline is on September 10th, 2014: <a href="http://iswc2011.semanticweb.org/attending/registration/" target="_blank"><font color="#000000">registration page</a>
+Download OM-2011 proceedings [<a href="http://www.dit.unitn.it/~p2p/OM-2011//om2010_proceedings.pdf" target="_blank"><font color="#676962">PDF</a>]:
+<a href="http://ceur-ws.org/Vol-689" target="_blank"><font color="#676962">CEUR-WS Vol-689</a>
+-->
+
+	</FONT>
+</h3> 
+
+</td>     
+	    </tr>
+</table>
+
+<table align="center" border="0" width="90%">
+  <tr align="center" valign="middle" bgcolor="#ECECEC">
+   <td width="15%"><b><a href="#obj"><strong><font face="Verdana" size="-1" color="#3F4D7E">Objectives</font></STRONG></a></b></td>
+   <td width="15%"><b><a href="#cfp"><strong><font face="Verdana" size="-1" color="#3F4D7E">Call for papers</font></STRONG></a></b></td>
+   <td width="15%"><b><a href="#subm"><strong><font face="Verdana" size="-1" color="#3F4D7E">Submissions</font></STRONG></a></b></td>   
+   <!--<td width="15%"><b><a href="#ap"><strong><font face="Verdana" size="-1" color="#3F4D7E">Accepted papers</font></STRONG></a></b></td>-->
+   <!--<td width="15%"><b><a href="#prg"><strong><font face="Verdana" size="-1" color="#3F4D7E">Program</font></STRONG></a></b></td>-->
+    <td width="15%"><b><a href="#org"><strong><font face="Verdana" size="-1" color="#3F4D7E">Organization</font></STRONG></a></b></td>
+   <td width="15%"><b><a href="http://www.om.ontologymatching.org/2024" target="_blank"><strong><font face="Verdana" size="-1" color="#3F4D7E">OM-2024</font></STRONG></a></b></td>
+ </tr>
+</table>
+<br>
+
+
+<table align="center" border="0" width="90%">
+ <tr>
+ <td align="left" valign="top"> <img src="Pictures/Objectives.jpg" alt="objectives" width="137" height="29" border="0"><a name="obj"></a></td> 
+ <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+<p align=justify><br><br>
+<a href="http://www.ontologymatching.org/" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Ontology matching</STRONG></FONT></a>
+is a key interoperability enabler for the Semantic Web, as well as a useful technique in
+some classical data integration tasks dealing with the semantic heterogeneity problem. It takes ontologies as
+input and determines as output an alignment, that is, a set of correspondences between the semantically
+related entities of those ontologies. These correspondences can be used for various tasks, such as ontology
+merging, data interlinking, query answering or navigation over knowledge graphs. Thus, matching ontologies
+enables the knowledge and data expressed with the matched ontologies to interoperate.
+</p>
+ <font color=#000000>
+The workshop has three goals:
+</font>
+
+<ul>
+<li> 
+<p align=justify>
+To bring together leaders from <em>academia</em>, <em>industry</em> and <em>user</em> institutions to assess how academic
+advances are addressing real-world requirements. The workshop will strive to improve academic 
+awareness of industrial and final user needs, and therefore, direct research towards those needs. 
+Simultaneously, the workshop will serve to inform industry and user representatives about existing 
+research efforts that may meet their requirements. The workshop will also investigate how the 
+ontology matching technology is going to evolve, especially with respect to data interlinking, process 
+matching, web table and knowledge graph matching tasks.
+</li></p>
+<li>
+<p align=justify>
+To conduct an extensive and rigorous evaluation of ontology matching and instance matching 
+(link discovery) approaches through the 
+<a href="https://oaei.ontologymatching.org/" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>OAEI</STRONG></FONT></a>
+(Ontology Alignment Evaluation Initiative) 
+<a href="https://oaei.ontologymatching.org/2025/" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>2025 campaign</STRONG></FONT></a>. 
+</li>
+</p>
+<li>
+<p align=justify>
+To examine similarities and differences from other, old, new and emerging, techniques and usages, such as process matching, web table matching or knowledge embeddings. 
+</li>
+</p>
+</ul>
+</p>
+
+
+
+</FONT> </STRONG>
+    </td>
+  </tr>
+<tr> 
+<td></td> 
+<td></td> 
+<TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+</tr>
+
+ <tr>
+ <td align="left" valign="top"> <img src="Pictures/cfp.jpg" alt="Call for papers" width="184" height="29" border="0"><a name="cfp"></a></td> 
+ <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+<p><br><br>	
+ <font color=#000000>Audience:</font>
+</p>
+<p align=justify>
+The workshop encourages participation from academia, industry and user institutions with the emphasis on
+theoretical and practical aspects of ontology matching. On the one side, we expect representatives from
+industry and user organizations to present business cases and their requirements for ontology matching.
+On the other side, we expect academic participants to present their approaches vis-a-vis those
+requirements. The workshop provides an informal setting for researchers and practitioners from different
+related initiatives to meet and benefit from each other's work and requirements.
+<br>
+<br>
+This year, in sync with the main conference, we encourage submissions specifically devoted to: 
+(i) datasets, benchmarks, software tools/services, APIs, methodologies, protocols and metrics (not necessarily related to OAEI), 
+and 
+(ii) application of ontology and instance matching technology in a specific domain and assessment of its usefulness to the final users.
+</p>
+ <p>
+ <font color=#000000>Topics of interest</font> include but are not limited to:
+    </p>
+<ul>
+<li>Business and use cases for matching (e.g., big, open, closed data)</li>
+<li>Requirements to matching from specific application scenarios (e.g., public sector)</li>
+<li>Application of matching techniques in real-world scenarios (e.g., in cloud, with mobile apps)</li>
+<li>Formal foundations and frameworks for matching</li>
+<li>Novel matching methods, including link prediction, ontology-based data access</li>
+<li>Matching and knowledge graphs</li>
+<li>Matching and deep learning</li>
+<li>Matching and embeddings</li>
+<li>Matching and big data</li>
+<li>Matching and linked data</li>
+<li>Instance matching, data interlinking and relations between them</li>
+<li>Privacy-aware matching</li>
+<li>Process model matching</li>
+<li>Large-scale and efficient matching techniques</li>
+<li>Matcher selection, combination and tuning</li>
+<li>User involvement (including both technical and organizational aspects)</li>
+<li>Explanations in matching</li>
+<li>Social and collaborative matching</li>
+<li>Uncertainty in matching</li>
+<li>Expressive alignments</li>
+<li>Reasoning with alignments</li>
+<li>Alignment coherence and debugging</li>
+<li>Alignment management</li>
+<li>FAIR (Findable, Accessible, Interoperable and Reusable) alignments</li>
+<li>Matching for traditional applications (e.g., data science)</li>
+<li>Matching for emerging applications (e.g., web tables, knowledge graphs)</li>
+</ul>
+</FONT> </STRONG>
+    </td>
+  </tr>
+
+
+  
+<tr> 
+<td></td> 
+<td></td> 
+<TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+</tr>
+
+<tr>
+ <td align="left" valign="top"> <img src="Pictures/subm.jpg" alt="Submissions" width="147" height="29" border="0">  <a name="subm"></a></td> 
+ <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+<p align=justify><br><br>
+Contributions to the workshop can be made in terms of technical papers and posters/statements of interest addressing 
+different issues of ontology matching as well as participating in the OAEI 2025 campaign.
+Long technical papers should be of max. 12 pages. 
+Short technical papers should be of max. 6 pages.
+Posters/statements of interest should not exceed 3 pages.
+References and appendix are excluded from the page limits and the submissions are single blind.
+All contributions have to be prepared using the 
+<STRONG>CEUR-ART, 1-column style</STRONG>.  
+Overleaf page for LaTeX users is available at 
+<a href="https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw</STRONG></FONT></a>,
+while offline version with the style files is available from
+<a href="http://ceur-ws.org/Vol-XXX/CEURART.zip" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>http://ceur-ws.org/Vol-XXX/CEURART.zip</STRONG></FONT></a>.
+Submissoins should be uploaded in PDF format through the workshop submission site at: 
+<br><br>
+<a href="https://www.easychair.org/conferences/?conf=om2025" target="_blank">
+<FONT size=2 face="Verdana" color=#6680ae><STRONG>https://www.easychair.org/conferences/?conf=om2025</STRONG></FONT></a>
+</p>
+</FONT> 
+
+<p align=justify>
+Contributors to the 
+<a href="https://oaei.ontologymatching.org/2025/" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>OAEI 2025 campaign</STRONG></FONT></a>
+have to follow the campaign conditions and schedule at
+<a href="https://oaei.ontologymatching.org/2025/" target="_blank">
+<FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>https://oaei.ontologymatching.org/2025/</STRONG></FONT></a>.
+</p>
+<p>
+ <font color=#000000>Important dates:
+</FONT>
+</p>
+
+
+<ul>
+
+<li><FONT color=#6680ae>July 11th, 2025:</FONT><br>
+Deadline for the submission of papers
+<li><FONT color=#6680ae>August 28th, 2025:</FONT><br>
+Deadline for the notification of acceptance/rejection
+<br>
+<li><FONT color=#6680ae>September 4th, 2025:</FONT>
+<br>
+Workshop camera ready copy submission
+<br>
+
+<!--<li><FONT color=#6680ae>September 8, 2025:</FONT>
+<br>
+Early 
+<a href="https://iswc2025.semanticweb.org/attending/registration/" target="_blank"><STRONG><FONT size=2 color=#9d9d9d>ISWC'23</STRONG></FONT></a>
+registration deadline -->
+
+<li><FONT color=#6680ae>November 11th, 2025:</FONT><br>
+OM-2025, Nara Prefectural Covention Center, Nara, Japan.
+<!--<a href="Pictures/OM-2011_ground-floor_room_REGER.pdf" target="_blank"><STRONG><FONT color=#9d9d9d>room REGER</STRONG></FONT></a>,
+-->
+</li></UL>
+<p align=justify>
+
+
+
+
+
+
+Contributions will be refereed by the 
+<a href="#PC"><STRONG><FONT size=2 color=#9d9d9d>Program Committee</STRONG></FONT></a>.
+Accepted papers will be published in the workshop proceedings as a volume of 
+<a href="https://ceur-ws.org/Vol-3591/" target="_blank"><font color="#9d9d9d">CEUR-WS</a>
+as well as indexed on <a href="https://dblp.org/db/conf/om2/index.html" target="_blank"><font color="#9d9d9d">DBLP</a>.
+By submitting a paper, the authors accept the CEUR-WS and DBLP publishing rules (CC-BY 4.0 license model).
+<br><br>
+
+<!--
+In order for the paper to appear in the workshop proceedings, one of the
+authors must register for both the conference and the workshop
+by the <a href="http://iswc2019.semanticweb.org/registration/" target="_blank"><STRONG><FONT size=2 color=#9d9d9d>EARLY registration deadline</STRONG></FONT></a>. 
+
+
+Also, all the OM-2011 workshop metadata (e.g., paper authors) will be made available publicly
+at the <a href="http://data.semanticweb.org" target="_blank"><font color="#9d9d9d">Semantic Web Dog Food</a> site. 
+
+<br>
+<br>
+In order for the paper to appear in the workshop proceedings, one of the
+authors must register both for the conference and the workshop
+by the <a href="http://iswc2014.semanticweb.org/registration" target="_blank"><STRONG><FONT size=2 color=#9d9d9d>EARLY registration deadline</STRONG></FONT></a>. 
+
+</p>
+    </td>
+  </tr>
+-->
+  
+		 	 
+
+    
+   <tr> 
+<td></td> 
+<td></td> 
+<TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+</tr>
+
+<!--
+
+ <tr>
+ <td align="left" valign="top"> <img src="Pictures/apaper.jpg" alt="Accepted Papers" width="184" height="29" border="0"><a name="ap"></a></td> 
+ <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+
+ <p align=justify><br><br>
+<font color=#000000>
+Long Technical Papers (20 min presentation + 10 min Q&amp;A):
+</FONT>
+
+</p> 
+ <ul>
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>A Gold Standard Benchmark Dataset for Digital Humanities</a></FONT> 
+<br>
+Felix Kraus, Nicolas Blumenr&#246;hr, Germaine G&#246;tzelmann, Danah Tonne and Achim Streit
+
+</li>
+
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>A Scalable Method for Large-scale Entity Alignment via Multi-Channel Retrieval and Fusion</a></FONT> 
+<br>
+Ningxin Chen and Zhichun Wang
+</li>
+
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>MDMapper: A Framework for Aligning Master Data Models Using Ontology Matching Techniques</a></FONT> 
+<br>
+Xianhao Liu, Jesper Grode and Michael R. Hansen
+</li>
+
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>Towards Generating Complex Alignments with Large Language Models via Prompt Engineering</a></FONT> 
+<br>
+Guilherme Henrique Santos Sousa, Rinaldo Lima and C&aacute;ssia Trojahn
+</li>
+
+</UL>
+
+<p align=justify><br>
+<font color=#000000>
+Poster Papers (15 min presentation + 5 min Q&amp;A):
+</FONT>
+
+</p> 
+ <ul>
+
+ 
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>Towards Tailoring Ontology Embeddings for Ontology Matching Tasks</a></FONT> 
+<br>
+Sevinj Teymurova, Ernesto Jim&#233;nez-Ruiz, Tillman Weyde and Jiaoyan Chen
+</li>
+
+<li><a href="" target=_blank><FONT size=2 face="Verdana">
+<FONT color=#6680ae>Enhancing Entity Matching through Systematic Association of Matchers to Linking Problem Types (LPTs)</a></FONT> 
+<br>
+Chlo&#233; Khadija Jradeh, Konstantin Todorov and C&aacute;ssia Trojahn
+</li>
+
+</UL>
+-->
+
+
+<!--
+ <tr>
+ <td align="left" valign="top"> <img src="Pictures/prg.jpg" alt="Program" width="110" height="29" border="0">  <a name="prg"></a></td> 
+ <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+  </td>
+ <TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+  </tr>   
+   <br><br> 
+   
+  <tr>
+    <td width="20%"></td>
+    <td width="80%" align="left"><FONT color=#000000 size=2 face="Verdana"><STRONG></FONT></STRONG></td>
+  </tr>
+  
+  <tr>
+    <td width="20%"></td>
+    <td width="80%" align="left"><FONT color=#000000 size=2 face="Verdana"><STRONG>Monday, 11th November - Room Encore</FONT></STRONG></td>
+  </tr>
+ 
+
+ 
+  <TR>
+    <td width="20%" align="right">&nbsp;&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>09:15-09:30</FONT></STRONG></td>
+    <TD width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Welcome and workshop overview</STRONG></FONT>
+    <FONT color=#9d9d9d><STRONG><em>Organizers</em></FONT></STRONG></FONT></TD></TR>
+
+<tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>9:30-10:40</FONT></STRONG></td>
+    <td width="80%" bgcolor="#d2d7f9"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Keynote</FONT></STRONG></FONT>
+
+		<STRONG><FONT size=2 face="Verdana"> <FONT color=#000000><STRONG>Leveraging Large Language Models for Ontology Matching</STRONG></FONT>
+	by 
+	<a href="https://comp.anu.edu.au/people/kerry-taylor/" target="_blank"><STRONG><FONT size=2 face="Verdana" color=#000000><em>Kerry Taylor</em></STRONG></FONT></a>
+	<FONT color=#9d9d9d>
+		Australian National University</STRONG>
+	</td>
+  </tr>
+<tr>
+    <td width="20%" align="center"><font size="2" face="Verdana" color="#000000"><strong></strong></font></td>
+    <td colspan="1" width="80%">
+	<STRONG>
+	<FONT size=2 color=#000000 face="Verdana">Bio:</FONT>
+	<FONT size=2 color=#9d9d9d face="Verdana">Professor Taylor joined the Australian National University (ANU) in Canberra  in January 2016, where she is a professor of Computer Science (Data Science). She spent the previous six months working on a UN 'big data' project with Australian Bureau of Statistics, after 20 years at CSIRO as a principal research scientist in computing. A long time ago she worked as an IT practitioner in consulting, publishing, education and government, in Sydney, Montreal and Oxford. Her research has focused on data management, integration, mining, and learning in interdisciplinary contexts, especially employing logic-based and semantic approaches. She has lectured in logic programming, networking, software engineering, and  project management. Currently she lectures in data mining and convenes the ANU Bachelor of Applied Data Analytics. She led the development of the Semantic Sensor Network Ontology with the W3C  in 2009 to 2011 and then  from 2015 to 2017 she co-Chaired the Spatial Data on the Web Working Group that matured that ontology to a formal standard of both the OGC and the W3C. She has held visiting fellowships at the University of Surrey, UK, the  University of Melbourne, and ANU.  She is a member of the Editorial Board of Spatial Information Science (<a href="https://josis.org/"><FONT size=2 color=#9d9d9d face="Verdana">JOSIS</FONT></a>) and an Associate Editor of  the new diamond access journal, Transactions on Graph Data and Knowledge (<a href="https://tgdk.org/"><FONT size=2 color=#9d9d9d face="Verdana">TGDK</FONT></a>). She hosted ISWC 2013 in Sydney (how good was that one!).
+	</FONT></STRONG></FONT></FONT><br>
+	</td>
+</tr>
+ 
+  <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>10:40-11:00</FONT></STRONG></td>
+    <td width="80%" bgcolor="#cff5d3"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Coffee break 
+	  <br> 
+	</td>
+  </tr>
+  
+  
+ <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>11:00-12:20</FONT></STRONG></td>
+    <td width="80%" bgcolor="#f5cfcf"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Methods and Applications - I</FONT></STRONG></FONT></td>
+  </tr>
+   
+	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>11:00-11:30</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>A Gold Standard Benchmark Dataset for Digital Humanities (long)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Felix Kraus, Nicolas Blumenr&#246;hr, Germaine G&#246;tzelmann, Danah Tonne and Achim Streit</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+ 
+
+  	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>11:30-12:00</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>A Scalable Method for Large-scale Entity Alignment via Multi-Channel Retrieval and Fusion (long)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Ningxin Chen and Zhichun Wang</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+
+
+    	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>12:00-12:20</FONT></STRONG></td>
+	<td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Towards Tailoring Ontology Embeddings for Ontology Matching Tasks (short)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Sevinj Teymurova, Ernesto Jim&#233;nez-Ruiz, Tillman Weyde and Jiaoyan Chen</em></FONT></STRONG></FONT></FONT></td>
+  
+
+  </tr>
+
+
+  
+  
+ <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>12:20-14:00</FONT></STRONG></td>
+    <td width="80%" bgcolor="#cff5d3"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Lunch 
+	</tr>
+
+
+
+  
+
+ <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>14:00-15:20</FONT></STRONG></td>
+    <td width="80%" bgcolor="#f5cfcf"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Methods and Applications - II</FONT></STRONG></FONT></td>
+  </tr>
+  
+ 
+  	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>14:00-14:30</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>MDMapper: A Framework for Aligning Master Data Models Using Ontology Matching Techniques (long)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Xianhao Liu, Jesper Grode and Michael R. Hansen</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+
+	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>14:30-15:00</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Towards Generating Complex Alignments with Large Language Models via Prompt Engineering (long)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Guilherme Henrique Santos Sousa, Rinaldo Lima and C&aacute;ssia Trojahn</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+
+	
+	<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>15:00-15:20</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Enhancing Entity Matching through Systematic Association of Matchers to Linking Problem Types (LPTs) (short)</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Chlo&#233; Khadija Jradeh, Konstantin Todorov and C&aacute;ssia Trojahn</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+  
+  
+     <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>15:20-16:00</FONT></STRONG></td>
+    <td width="80%" bgcolor="#cff5d3"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Coffee break 
+	  <br> 
+	</td>
+  </tr>
+
+    <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>16:00-17:15</FONT></STRONG></td>
+    <td width="80%" bgcolor="#f5cfcf"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>OAEI-2025 campaign and the SemTab challenge</FONT></STRONG></FONT></td>
+  </tr>
+
+  
+<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>16:00-16:30</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Summary of the OAEI 2025 campaign and the SemTab challenge</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Organizers</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+  
+  
+  
+ 
+ 
+<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>16:30-17:15</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>System presentations</FONT></STRONG><br>
+</tr>
+ 
+ 
+
+ 
+ 
+<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>16:30-16:45</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>System presentation - Matcha</FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Daniel Faria</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+
+ 
+<tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>16:45-17:00</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>System presentation - OntoMatch </FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Julian Samples</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+  
+  <tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>17:00-17:15</FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>System presentation - LogMap </FONT></STRONG><br>
+    <FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG><em>Ernesto Jim&#233;nez-Ruiz</em></FONT></STRONG></FONT></FONT></td>
+  </tr>
+ 
+ 
+    
+	 <tr>
+    <td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG>17:15-17:40</FONT></STRONG></td>
+    <td width="80%" bgcolor="#f5cfcf"><FONT size=2 face="Verdana"><FONT color=#6680ae><STRONG>Discussion and wrap-up</FONT></STRONG></FONT></td>
+  </tr>
+ -->
+	  
+
+ 	   <tr>
+	<td width="20%" align="right">&nbsp;<FONT color=#000000 size=2 face="Verdana"><STRONG></FONT></STRONG></td>
+    <td width="80%"><FONT size=2 face="Verdana"><FONT color=#9d9d9d><STRONG>
+	</FONT></STRONG></td>
+	  </tr>
+ 
+ 
+    
+<!--
+   <tr> 
+<td></td> 
+<td></td> 
+<TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+</tr>
+-->
+
+
+
+
+
+<tr>
+ <td align="left" valign="top"> <img src="Pictures/org.jpg" alt="Organization" width="158" height="29" border="0">  <a name="org"></a></td> 
+  <td align="left"> <strong><font face="Verdana" size="-1" color=#9d9d9d>
+  <p align=justify><br><br>
+<font color=#000000>
+Organizing Committee:
+</FONT>
+</p>
+<ul>
+	<li>
+		<a href="https://www.city.ac.uk/people/academics/ernesto-jimenez-ruiz" target="_blank"><FONT color=#6680ae>Ernesto Jim&#233;nez-Ruiz</FONT></a><br>
+		City, University of London, UK &amp; SIRIUS, University of Oslo, Norway
+	</li>
+	<li>
+		<a href="https://research.ibm.com/people/oktie-hassanzadeh" target="_blank"><FONT color=#6680ae>Oktie Hassanzadeh</FONT></a><br>
+		IBM Research, USA
+	</li>
+	<li>
+		<a href="https://www.irit.fr/~Cassia.Trojahn/" target="_blank"><FONT color=#6680ae>C&aacute;ssia Trojahn</FONT></a><br>
+		IRIT, France
+	</li>
+	<li>
+		<a href="https://www.fiz-karlsruhe.de/de/forschung/lebenslauf-und-publikationen-sven-hertling" target="_blank"><FONT color=#6680ae>Sven Hertling (Main contact)</FONT></a><br>
+		FIZ Karlsruhe, Germany
+	</li>
+	<li>
+		<a href="https://www.ida.liu.se/~huali50/" target="_blank"><FONT color=#6680ae>Huanyu Li (Main contact)</FONT></a><br>
+		Link&#246;ping University, Sweden
+	</li>
+	<li>
+		<a href="http://www.dit.unitn.it/~pavel" target="_blank"><FONT color=#6680ae>Pavel Shvaiko</FONT></a><br>
+		Trentino Digitale S.p.A., Italy
+	</li>
+	<li>
+		<a href="https://moex.inria.fr/~euzenat/" target="_blank"><FONT color=#6680ae>J&eacute;r&ocirc;me Euzenat</FONT></a><br>
+		INRIA &amp; Univ. Grenoble Alpes, France
+	</li>
+</ul>
+
+
+<p align=justify>
+<a name="PC"></a>
+<font color=#000000>
+Program Committee (to be added):
+</FONT>
+</p>
+
+<!--
+<ul>
+<li><FONT color=#6680ae>Alsayed Algergawy,</FONT>
+Jena University, Germany
+<li><FONT color=#6680ae>Manuel Atencia,</FONT>
+Universidad de M&aacute;laga, Spain
+<li><FONT color=#6680ae>Jiaoyan Chen,</FONT>
+University of Oxford, UK
+<li><FONT color=#6680ae>J&eacute;r&ocirc;me David,</FONT>
+University Grenoble Alpes &amp; INRIA, France
+<li><FONT color=#6680ae>Gayo Diallo,</FONT>
+University of Bordeaux, France
+<li><FONT color=#6680ae>Daniel Faria,</FONT>
+INESC-ID&amp;IST, University of Lisbon, Portugal
+<li><FONT color=#6680ae>Alfio Ferrara,</FONT>
+University of Milan, Italy
+<li><FONT color=#6680ae>Marko Guli&#263;,</FONT>
+University of Rijeka, Croatia
+<li><FONT color=#6680ae>Wei Hu,</FONT>
+Nanjing University, China
+<li><FONT color=#6680ae>Ryutaro Ichise,</FONT>
+National Institute of Informatics, Japan
+<li><FONT color=#6680ae>Antoine Isaac,</FONT>
+Vrije Universiteit Amsterdam &amp; Europeana, Netherlands
+<li><FONT color=#6680ae>Naouel Karam,</FONT>
+Fraunhofer, Germany
+<li><FONT color=#6680ae>Prodromos Kolyvakis,</FONT>
+EPFL, Switzerland
+<li><FONT color=#6680ae>Patrick Lambrix,</FONT>
+Link&ouml;pings Universitet, Sweden
+<li><FONT color=#6680ae>Oliver Lehmberg,</FONT>
+University of Mannheim, Germany
+<li><FONT color=#6680ae>Fiona McNeill,</FONT>
+University of Edinburgh, UK
+<li><FONT color=#6680ae>Hoa Ngo,</FONT>
+CSIRO, Australia
+<li><FONT color=#6680ae>George Papadakis,</FONT>
+University of Athens, Greece
+<li><FONT color=#6680ae>Catia Pesquita,</FONT>
+University of Lisbon, Portugal
+<li><FONT color=#6680ae>Henry Rosales-M&eacute;ndez,</FONT>
+University of Chile, Chile
+<li><FONT color=#6680ae>Booma Sowkarthiga,</FONT>
+Microsoft, USA
+<li><FONT color=#6680ae>Kavitha Srinivas,</FONT>
+IBM, USA
+<li><FONT color=#6680ae>Giorgos Stoilos,</FONT>
+University of Oxford, UK
+<li><FONT color=#6680ae>Valentina Tamma,</FONT>
+University of Liverpool, UK
+<li><FONT color=#6680ae>Ludger van Elst,</FONT>
+DFKI, Germany
+<li><FONT color=#6680ae>Xingsi Xue,</FONT>
+Fujian University of Technology, China
+<li><FONT color=#6680ae>Ond&#345;ej Zamazal,</FONT>
+Prague University of Economics, Czech Republic
+<li><FONT color=#6680ae>Songmao Zhang,</FONT>
+Chinese Academy of Sciences, China
+<li><FONT color=#6680ae>Lu Zhou,</FONT>
+TigerGraph, USA
+</li></UL>
+-->
+ 
+
+<p align=justify>
+<font color=#000000>
+Acknowledgements:
+</FONT>
+</p>
+We appreciate support from 
+<a href="https://www.trentinodigitale.it" target="_blank"><FONT color=#6680ae>Trentino Digitale</a></FONT>,
+the EU
+<a href="http://www.seals-project.eu" target="_blank"><FONT color=#6680ae>SEALS</a></FONT>
+project, as well as 
+<a href="http://www.pistoiaalliance.org/projects/ontologies-mapping" target="_blank"><FONT color=#6680ae>the Pistoia Alliance Ontologies Mapping</a></FONT>
+project and 
+<a href="http://research.ibm.com/labs/watson/" target="_blank"><FONT color=#6680ae>IBM Research</a></FONT>.
+
+
+<!--the ASIA-Link 
+<a href="http://latemar.science.unitn.it/EASTWEB/index.html" target="_blank"><FONT color=#6680ae>EASTWEB</a></FONT>
+project (Contract TH/Asia Link/010 (111084)).
+<br><br>
+<a href="http://www.taslab.eu/" target="_blank"><img src="Pictures/taslab.jpg" alt="TasLab logo" width="150" height="85" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-->
+<br><br>
+<a href="https://www.trentinodigitale.it/" target="_blank"><img src="Pictures/tndigit.jpg" alt="IT logo" width="250" height="75" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.seals-project.eu" target="_blank"><img src="Pictures/seals1.jpg" alt="IT logo" width="55" height="120" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://www.pistoiaalliance.org/projects/ontologies-mapping" target="_blank"><img src="Pictures/PA_logo.png" alt="Pistoia Alliance logo" width="250" height="70" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="http://research.ibm.com/labs/watson/" target="_blank"><img src="Pictures/ibmr.png" alt="IBM Research logo" width="300" height="75" border="0"></a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+</FONT> </STRONG>
+    </td>
+  </tr>
+<tr> 
+<td></td> 
+<td></td> 
+<TD align="right">
+<a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17" border="0"></a>
+      </TD>
+</tr>
+</TABLE> 
+
+<table align="center" border="0" width="90%">
+<tr> 
+<td width="184"></td>
+<td><img src="Pictures/footerline.jpg" alt="Footer" border="0">
+</td>
+<td align="center"><font face="Verdana" size="2"><FONT color=#BCBFCE><STRONG>
+:: Last Update: 18.03.2025</FONT></STRONG>
+</td>
+</tr>
+</TABLE>  
+
+</body>
+</html> 
