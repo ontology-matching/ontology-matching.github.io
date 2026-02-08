@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>:: OM-2024 ::</title>
+  <meta name="author" content="Pavel Shvaiko">
+  <meta name="description" content="ontology matching workshop: papers, matching systems, evaluation">
+  <meta name="keywords" content="ontology matching, matching, alignment, mapping, schema matching, ontology alignment, semantic matching, data integration, knowledge graphs, OAEI, evaluation, benchmarking">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { color: #676962; font-family: Verdana, sans-serif; font-size: 0.9rem; }
+    a { color: #6680ae; }
+    .om-title { text-shadow: 3px 4px 4px #777; }
+    .om-nav { background: #ececec; }
+    .om-nav a { color: #3f4d7e; text-decoration: none; white-space: nowrap; font-weight: bold; }
+    .om-nav a:hover { text-decoration: underline; }
+    .om-nav .dropdown-menu { font-size: 0.9rem; background: #ececec; }
+    .section-img { height: 29px; }
+    .bg-keynote { --bs-table-bg: #d2d7f9; }
+    .bg-session { --bs-table-bg: #f5cfcf; }
+    .bg-break { --bs-table-bg: #cff5d3; }
+    .schedule-time { width: 120px; }
+    .schedule td { color: #676962; }
+    .schedule td b { color: #6680ae; }
+    .pc-name { color: #6680ae; }
+    .footer-line { border-top: 1px solid #bcbfce; color: #bcbfce; }
+    @media (min-width: 992px) {
+      .om-nav .dropdown:hover .dropdown-menu { display: block; }
+      .section-label { width: 200px; }
+      .section-content { margin-left: 200px; }
+    }
+  </style>
+</head>
+<body>
+
+<a id="top"></a>
+
+<!-- HEADER -->
+<header class="container-xl py-4 text-center">
+  <h1 class="om-title">OM - 2024</h1>
+  <h2 class="h4">The 19th International Workshop on Ontology Matching</h2>
+  <p class="mb-1">collocated with the 23rd International Semantic Web Conference <a href="http://iswc2024.semanticweb.org/" target="_blank">ISWC-2024</a></p>
+  <p class="mb-2">November 11th, 2024, Baltimore, USA</p>
+  <p>Download OM-2024 proceedings: <a href="http://ceur-ws.org/Vol-3897" target="_blank">CEUR-WS Vol-3897</a></p>
+</header>
+
+<!-- NAVIGATION -->
+<nav class="container-xl mb-4">
+  <div class="om-nav rounded py-2 px-2">
+    <div class="d-flex flex-column flex-lg-row flex-wrap justify-content-between text-center gap-2">
+      <a href="#obj">Objectives</a>
+      <a href="#cfp">Call for papers</a>
+      <a href="#subm">Submissions</a>
+      <a href="#ap">Accepted papers</a>
+      <a href="#prg">Program</a>
+      <a href="#org">Organization</a>
+      <div class="dropdown">
+        <a class="dropdown-toggle" href="#" data-bs-toggle="dropdown">Previous editions</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="http://www.om2023.ontologymatching.org/" target="_blank">OM-2023</a></li>
+          <li><a class="dropdown-item" href="http://www.om2022.ontologymatching.org/" target="_blank">OM-2022</a></li>
+          <li><a class="dropdown-item" href="http://www.om2021.ontologymatching.org/" target="_blank">OM-2021</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<main class="container-xl pb-4">
+
+<!-- OBJECTIVES -->
+<section id="obj" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/Objectives.jpg" alt="Objectives" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p><a href="http://www.ontologymatching.org/" target="_blank"><strong>Ontology matching</strong></a> is a key interoperability enabler for the Semantic Web, as well as a useful technique in some classical data integration tasks dealing with the semantic heterogeneity problem. It takes ontologies as input and determines as output an alignment, that is, a set of correspondences between the semantically related entities of those ontologies. These correspondences can be used for various tasks, such as ontology merging, data interlinking, query answering or navigation over knowledge graphs. Thus, matching ontologies enables the knowledge and data expressed with the matched ontologies to interoperate.</p>
+      <p><b>The workshop has three goals:</b></p>
+      <ul>
+        <li>To bring together leaders from <em>academia</em>, <em>industry</em> and <em>user</em> institutions to assess how academic advances are addressing real-world requirements. The workshop will strive to improve academic awareness of industrial and final user needs, and therefore, direct research towards those needs. Simultaneously, the workshop will serve to inform industry and user representatives about existing research efforts that may meet their requirements. The workshop will also investigate how the ontology matching technology is going to evolve, especially with respect to data interlinking, process matching, web table and knowledge graph matching tasks.</li>
+        <li>To conduct an extensive and rigorous evaluation of ontology matching and instance matching (link discovery) approaches through the <a href="https://oaei.ontologymatching.org/" target="_blank"><strong>OAEI</strong></a> (Ontology Alignment Evaluation Initiative) <a href="https://oaei.ontologymatching.org/2024/" target="_blank"><strong>2024 campaign</strong></a>.</li>
+        <li>To examine similarities and differences from other, old, new and emerging, techniques and usages, such as process matching, web table matching or knowledge embeddings.</li>
+      </ul>
+    </div>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+<!-- CALL FOR PAPERS -->
+<section id="cfp" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/cfp.jpg" alt="Call for papers" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p><b>Audience:</b></p>
+      <p>The workshop encourages participation from academia, industry and user institutions with the emphasis on theoretical and practical aspects of ontology matching. On the one side, we expect representatives from industry and user organizations to present business cases and their requirements for ontology matching. On the other side, we expect academic participants to present their approaches vis-a-vis those requirements. The workshop provides an informal setting for researchers and practitioners from different related initiatives to meet and benefit from each other's work and requirements.</p>
+      <p>This year, in sync with the main conference, we encourage submissions specifically devoted to: (i) datasets, benchmarks, software tools/services, APIs, methodologies, protocols and metrics (not necessarily related to OAEI), and (ii) application of ontology and instance matching technology in a specific domain and assessment of its usefulness to the final users.</p>
+      <p><b>Topics of interest include but are not limited to:</b></p>
+      <ul>
+        <li>Business and use cases for matching (e.g., big, open, closed data)</li>
+        <li>Requirements to matching from specific application scenarios (e.g., public sector)</li>
+        <li>Application of matching techniques in real-world scenarios (e.g., in cloud, with mobile apps)</li>
+        <li>Formal foundations and frameworks for matching</li>
+        <li>Novel matching methods, including link prediction, ontology-based data access</li>
+        <li>Matching and knowledge graphs</li>
+        <li>Matching and deep learning</li>
+        <li>Matching and embeddings</li>
+        <li>Matching and big data</li>
+        <li>Matching and linked data</li>
+        <li>Instance matching, data interlinking and relations between them</li>
+        <li>Privacy-aware matching</li>
+        <li>Process model matching</li>
+        <li>Large-scale and efficient matching techniques</li>
+        <li>Matcher selection, combination and tuning</li>
+        <li>User involvement (including both technical and organizational aspects)</li>
+        <li>Explanations in matching</li>
+        <li>Social and collaborative matching</li>
+        <li>Uncertainty in matching</li>
+        <li>Expressive alignments</li>
+        <li>Reasoning with alignments</li>
+        <li>Alignment coherence and debugging</li>
+        <li>Alignment management</li>
+        <li>FAIR (Findable, Accessible, Interoperable and Reusable) alignments</li>
+        <li>Matching for traditional applications (e.g., data science)</li>
+        <li>Matching for emerging applications (e.g., web tables, knowledge graphs)</li>
+      </ul>
+    </div>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+<!-- SUBMISSIONS -->
+<section id="subm" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/subm.jpg" alt="Submissions" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p>Contributions to the workshop can be made in terms of technical papers and posters/statements of interest addressing different issues of ontology matching as well as participating in the OAEI 2024 campaign. Long technical papers should be of max. 12 pages. Short technical papers should be of max. 6 pages. Posters/statements of interest should not exceed 3 pages. References and appendix are excluded from the page limits and the submissions are single blind.</p>
+      <p>All contributions have to be prepared using the <strong>CEUR-ART, 1-column style</strong>. Overleaf page for LaTeX users is available at <a href="https://www.overleaf.com/latex/templates/template-for-submissions-to-ceur-workshop-proceedings-ceur-ws-dot-org/wqyfdgftmcfw" target="_blank">overleaf.com</a>, while offline version with the style files is available from <a href="http://ceur-ws.org/Vol-XXX/CEURART.zip" target="_blank">ceur-ws.org</a>.</p>
+      <p>Submissions should be uploaded in PDF format through the workshop submission site at:<br>
+      <a href="https://www.easychair.org/conferences/?conf=om2024" target="_blank"><strong>https://www.easychair.org/conferences/?conf=om2024</strong></a></p>
+      <p>Contributors to the <a href="https://oaei.ontologymatching.org/2024/" target="_blank"><strong>OAEI 2024 campaign</strong></a> have to follow the campaign conditions and schedule at <a href="https://oaei.ontologymatching.org/2024/" target="_blank">https://oaei.ontologymatching.org/2024/</a>.</p>
+      <p><b>Important dates:</b></p>
+      <ul>
+        <li><a><s>August 9th</s> <s>August 19th, 2024</s>:</a> Deadline for the submission of papers</li>
+        <li><a><s>September 2nd, 2024</s>:</a> Deadline for the notification of acceptance/rejection</li>
+        <li><a><s>September 9th, 2024</s>:</a> Workshop camera ready copy submission</li>
+        <li><a>November 11th, 2024:</a> OM-2024, Live! Casino &amp; Hotel Maryland, Maryland, USA</li>
+      </ul>
+      <p>Contributions will be refereed by the <a href="#PC">Program Committee</a>. Accepted papers will be published in the workshop proceedings as a volume of <a href="https://ceur-ws.org/Vol-3591/" target="_blank">CEUR-WS</a> as well as indexed on <a href="https://dblp.org/db/conf/om2/index.html" target="_blank">DBLP</a>. By submitting a paper, the authors accept the CEUR-WS and DBLP publishing rules (CC-BY 4.0 license model).</p>
+    </div>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+<!-- ACCEPTED PAPERS -->
+<section id="ap" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/apaper.jpg" alt="Accepted Papers" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p><b>Long Technical Papers (20 min presentation + 10 min Q&amp;A):</b></p>
+      <ul>
+        <li><a href="">A Gold Standard Benchmark Dataset for Digital Humanities</a><br>Felix Kraus, Nicolas Blumenröhr, Germaine Götzelmann, Danah Tonne and Achim Streit</li>
+        <li><a href="">A Scalable Method for Large-scale Entity Alignment via Multi-Channel Retrieval and Fusion</a><br>Ningxin Chen and Zhichun Wang</li>
+        <li><a href="">MDMapper: A Framework for Aligning Master Data Models Using Ontology Matching Techniques</a><br>Xianhao Liu, Jesper Grode and Michael R. Hansen</li>
+        <li><a href="">Towards Generating Complex Alignments with Large Language Models via Prompt Engineering</a><br>Guilherme Henrique Santos Sousa, Rinaldo Lima and Cássia Trojahn</li>
+      </ul>
+      <p><b>Poster Papers (15 min presentation + 5 min Q&amp;A):</b></p>
+      <ul>
+        <li><a href="">Towards Tailoring Ontology Embeddings for Ontology Matching Tasks</a><br>Sevinj Teymurova, Ernesto Jiménez-Ruiz, Tillman Weyde and Jiaoyan Chen</li>
+        <li><a href="">Enhancing Entity Matching through Systematic Association of Matchers to Linking Problem Types (LPTs)</a><br>Chloé Khadija Jradeh, Konstantin Todorov and Cássia Trojahn</li>
+      </ul>
+    </div>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+<!-- PROGRAM -->
+<section id="prg" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/prg.jpg" alt="Program" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p><b>Monday, 11th November - Room Encore</b></p>
+    </div>
+  </div>
+  <div class="section-content">
+  <table class="table table-sm schedule">
+    <tr>
+      <td class="schedule-time"><b>09:15-09:30</b></td>
+      <td><b>Welcome and workshop overview</b><br><em>Organizers</em></td>
+    </tr>
+    <tr class="bg-keynote">
+      <td class="schedule-time"><b>9:30-10:40</b></td>
+      <td><b>Keynote</b><br>
+        <strong>Leveraging Large Language Models for Ontology Matching</strong><br>
+        by <a href="https://comp.anu.edu.au/people/kerry-taylor/" target="_blank"><em>Kerry Taylor</em></a>, Australian National University<br>
+        <small><strong>Bio:</strong> Professor Taylor joined the Australian National University (ANU) in Canberra in January 2016, where she is a professor of Computer Science (Data Science). She spent the previous six months working on a UN 'big data' project with Australian Bureau of Statistics, after 20 years at CSIRO as a principal research scientist in computing. A long time ago she worked as an IT practitioner in consulting, publishing, education and government, in Sydney, Montreal and Oxford. Her research has focused on data management, integration, mining, and learning in interdisciplinary contexts, especially employing logic-based and semantic approaches. She has lectured in logic programming, networking, software engineering, and project management. Currently she lectures in data mining and convenes the ANU Bachelor of Applied Data Analytics. She led the development of the Semantic Sensor Network Ontology with the W3C in 2009 to 2011 and then from 2015 to 2017 she co-Chaired the Spatial Data on the Web Working Group that matured that ontology to a formal standard of both the OGC and the W3C. She has held visiting fellowships at the University of Surrey, UK, the University of Melbourne, and ANU. She is a member of the Editorial Board of Spatial Information Science (<a href="https://josis.org/">JOSIS</a>) and an Associate Editor of the new diamond access journal, Transactions on Graph Data and Knowledge (<a href="https://tgdk.org/">TGDK</a>). She hosted ISWC 2013 in Sydney (how good was that one!).</small>
+      </td>
+    </tr>
+    <tr class="bg-break">
+      <td class="schedule-time"><b>10:40-11:00</b></td>
+      <td><b>Coffee break</b></td>
+    </tr>
+    <tr class="bg-session">
+      <td class="schedule-time"><b>11:00-12:20</b></td>
+      <td><b>Methods and Applications - I</b></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>11:00-11:30</b></td>
+      <td><b>A Gold Standard Benchmark Dataset for Digital Humanities (long)</b><br><em>Felix Kraus, Nicolas Blumenröhr, Germaine Götzelmann, Danah Tonne and Achim Streit</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>11:30-12:00</b></td>
+      <td><b>A Scalable Method for Large-scale Entity Alignment via Multi-Channel Retrieval and Fusion (long)</b><br><em>Ningxin Chen and Zhichun Wang</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>12:00-12:20</b></td>
+      <td><b>Towards Tailoring Ontology Embeddings for Ontology Matching Tasks (short)</b><br><em>Sevinj Teymurova, Ernesto Jiménez-Ruiz, Tillman Weyde and Jiaoyan Chen</em></td>
+    </tr>
+    <tr class="bg-break">
+      <td class="schedule-time"><b>12:20-14:00</b></td>
+      <td><b>Lunch</b></td>
+    </tr>
+    <tr class="bg-session">
+      <td class="schedule-time"><b>14:00-15:20</b></td>
+      <td><b>Methods and Applications - II</b></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>14:00-14:30</b></td>
+      <td><b>MDMapper: A Framework for Aligning Master Data Models Using Ontology Matching Techniques (long)</b><br><em>Xianhao Liu, Jesper Grode and Michael R. Hansen</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>14:30-15:00</b></td>
+      <td><b>Towards Generating Complex Alignments with Large Language Models via Prompt Engineering (long)</b><br><em>Guilherme Henrique Santos Sousa, Rinaldo Lima and Cássia Trojahn</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>15:00-15:20</b></td>
+      <td><b>Enhancing Entity Matching through Systematic Association of Matchers to Linking Problem Types (LPTs) (short)</b><br><em>Chloé Khadija Jradeh, Konstantin Todorov and Cássia Trojahn</em></td>
+    </tr>
+    <tr class="bg-break">
+      <td class="schedule-time"><b>15:20-16:00</b></td>
+      <td><b>Coffee break</b></td>
+    </tr>
+    <tr class="bg-session">
+      <td class="schedule-time"><b>16:00-17:15</b></td>
+      <td><b>OAEI-2024 campaign and the SemTab challenge</b></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>16:00-16:30</b></td>
+      <td><b>Summary of the OAEI 2024 campaign and the SemTab challenge</b><br><em>Organizers</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>16:30-16:45</b></td>
+      <td><b>System presentation - Matcha</b><br><em>Daniel Faria</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>16:45-17:00</b></td>
+      <td><b>System presentation - OntoMatch</b><br><em>Julian Samples</em></td>
+    </tr>
+    <tr>
+      <td class="schedule-time"><b>17:00-17:15</b></td>
+      <td><b>System presentation - LogMap</b><br><em>Ernesto Jiménez-Ruiz</em></td>
+    </tr>
+    <tr class="bg-session">
+      <td class="schedule-time"><b>17:15-17:40</b></td>
+      <td><b>Discussion and wrap-up</b></td>
+    </tr>
+  </table>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+<!-- ORGANIZATION -->
+<section id="org" class="mb-4">
+  <div class="row">
+    <div class="col-lg-auto section-label">
+      <img src="Pictures/org.jpg" alt="Organization" class="section-img mb-3">
+    </div>
+    <div class="col">
+      <p><b>Organizing Committee:</b></p>
+    </div>
+  </div>
+  <div class="section-content">
+  <ul>
+    <li><a href="https://www.city.ac.uk/people/academics/ernesto-jimenez-ruiz" target="_blank">Ernesto Jiménez-Ruiz</a><br>City, University of London, UK &amp; SIRIUS, University of Oslo, Norway</li>
+    <li><a href="https://research.ibm.com/people/oktie-hassanzadeh" target="_blank">Oktie Hassanzadeh</a><br>IBM Research, USA</li>
+    <li><a href="https://www.irit.fr/~Cassia.Trojahn/" target="_blank">Cássia Trojahn</a><br>IRIT, France</li>
+    <li><a href="https://www.fiz-karlsruhe.de/de/forschung/lebenslauf-und-publikationen-sven-hertling" target="_blank">Sven Hertling (Main contact)</a><br>FIZ Karlsruhe, Germany</li>
+    <li><a href="https://www.ida.liu.se/~huali50/" target="_blank">Huanyu Li (Main contact)</a><br>Linköping University, Sweden</li>
+    <li><a href="http://www.dit.unitn.it/~pavel" target="_blank">Pavel Shvaiko</a><br>Trentino Digitale S.p.A., Italy</li>
+    <li><a href="https://moex.inria.fr/~euzenat/" target="_blank">Jérôme Euzenat</a><br>INRIA &amp; Univ. Grenoble Alpes, France</li>
+  </ul>
+
+  <p id="PC"><b>Program Committee:</b></p>
+  <ul class="row row-cols-1 row-cols-md-2 list-unstyled">
+    <li class="col"><span class="pc-name">Alsayed Algergawy,</span> Jena University, Germany</li>
+    <li class="col"><span class="pc-name">Manuel Atencia,</span> Universidad de Málaga, Spain</li>
+    <li class="col"><span class="pc-name">Jiaoyan Chen,</span> University of Oxford, UK</li>
+    <li class="col"><span class="pc-name">Jérôme David,</span> University Grenoble Alpes &amp; INRIA, France</li>
+    <li class="col"><span class="pc-name">Gayo Diallo,</span> University of Bordeaux, France</li>
+    <li class="col"><span class="pc-name">Daniel Faria,</span> INESC-ID&amp;IST, University of Lisbon, Portugal</li>
+    <li class="col"><span class="pc-name">Alfio Ferrara,</span> University of Milan, Italy</li>
+    <li class="col"><span class="pc-name">Marko Gulić,</span> University of Rijeka, Croatia</li>
+    <li class="col"><span class="pc-name">Wei Hu,</span> Nanjing University, China</li>
+    <li class="col"><span class="pc-name">Ryutaro Ichise,</span> National Institute of Informatics, Japan</li>
+    <li class="col"><span class="pc-name">Antoine Isaac,</span> Vrije Universiteit Amsterdam &amp; Europeana, Netherlands</li>
+    <li class="col"><span class="pc-name">Naouel Karam,</span> Fraunhofer, Germany</li>
+    <li class="col"><span class="pc-name">Prodromos Kolyvakis,</span> EPFL, Switzerland</li>
+    <li class="col"><span class="pc-name">Patrick Lambrix,</span> Linköpings Universitet, Sweden</li>
+    <li class="col"><span class="pc-name">Oliver Lehmberg,</span> University of Mannheim, Germany</li>
+    <li class="col"><span class="pc-name">Fiona McNeill,</span> University of Edinburgh, UK</li>
+    <li class="col"><span class="pc-name">Hoa Ngo,</span> CSIRO, Australia</li>
+    <li class="col"><span class="pc-name">George Papadakis,</span> University of Athens, Greece</li>
+    <li class="col"><span class="pc-name">Catia Pesquita,</span> University of Lisbon, Portugal</li>
+    <li class="col"><span class="pc-name">Henry Rosales-Méndez,</span> University of Chile, Chile</li>
+    <li class="col"><span class="pc-name">Booma Sowkarthiga,</span> Microsoft, USA</li>
+    <li class="col"><span class="pc-name">Kavitha Srinivas,</span> IBM, USA</li>
+    <li class="col"><span class="pc-name">Giorgos Stoilos,</span> University of Oxford, UK</li>
+    <li class="col"><span class="pc-name">Valentina Tamma,</span> University of Liverpool, UK</li>
+    <li class="col"><span class="pc-name">Ludger van Elst,</span> DFKI, Germany</li>
+    <li class="col"><span class="pc-name">Xingsi Xue,</span> Fujian University of Technology, China</li>
+    <li class="col"><span class="pc-name">Ondřej Zamazal,</span> Prague University of Economics, Czech Republic</li>
+    <li class="col"><span class="pc-name">Songmao Zhang,</span> Chinese Academy of Sciences, China</li>
+    <li class="col"><span class="pc-name">Lu Zhou,</span> TigerGraph, USA</li>
+  </ul>
+
+  <p><b>Acknowledgements:</b></p>
+  <p>We appreciate support from <a href="https://www.trentinodigitale.it" target="_blank">Trentino Digitale</a>, the EU <a href="http://www.seals-project.eu" target="_blank">SEALS</a> project, as well as <a href="http://www.pistoiaalliance.org/projects/ontologies-mapping" target="_blank">the Pistoia Alliance Ontologies Mapping</a> project and <a href="http://research.ibm.com/labs/watson/" target="_blank">IBM Research</a>.</p>
+
+  <div class="d-flex flex-wrap gap-4 align-items-center my-3">
+    <a href="https://www.trentinodigitale.it/" target="_blank"><img src="Pictures/tndigit.jpg" alt="Trentino Digitale" height="75"></a>
+    <a href="http://www.seals-project.eu" target="_blank"><img src="Pictures/seals1.jpg" alt="SEALS" height="100"></a>
+    <a href="http://www.pistoiaalliance.org/projects/ontologies-mapping" target="_blank"><img src="Pictures/PA_logo.png" alt="Pistoia Alliance" height="60"></a>
+    <a href="http://research.ibm.com/labs/watson/" target="_blank"><img src="Pictures/ibmr.png" alt="IBM Research" height="65"></a>
+  </div>
+  </div>
+  <div class="text-end"><a href="#top"><img src="Pictures/totop.jpg" alt="Top" width="95" height="17"></a></div>
+</section>
+
+</main>
+
+<!-- FOOTER -->
+<footer class="container-xl">
+  <div class="footer-line text-center py-3">
+    <small>OM-2024 · Ontology Matching Workshop · Last update: April 7, 2024</small>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
